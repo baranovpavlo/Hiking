@@ -1,0 +1,27 @@
+.footer-wrapper{
+    background-color: #000;
+    min-height: 5rem;
+}
+
+@media(min-width:768px){
+    .footer-wrapper{
+        background-color: #fff;
+        min-height: 17.5rem;
+        color: #fff;
+    }
+}
+
+@media (min-width:960px){
+    .footer-wrapper {
+        min-height: 0;
+        background-color: #000;
+        color: #808080;
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+        padding: 2.1875rem 0;
+        font-size: 0.75rem;
+    }
+}
