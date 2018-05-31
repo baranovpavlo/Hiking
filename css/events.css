@@ -1,0 +1,102 @@
+.wrapper-events{
+    background-image: url(../img/fon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title-events{
+    font-size: 1.875rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.title-events::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.125rem;
+    background-color: #d5423a;
+    margin: auto;
+    margin-top: 0.75rem;
+}
+.img-card{
+    width: 98%;
+    display: block;
+    margin: auto;
+}
+.text-events{
+    color: #ffffff;
+    line-height: 1.5rem;
+}
+.about-events{
+    padding: 1.5rem;
+    background-color: #0009;
+}
+.name-events{
+    color: #d5423a;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.overlay{
+    display: none;
+}
+.card{
+    margin-bottom: 1.5rem;
+}
+.card:last-child{
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .card{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card{
+        flex-basis: 31.5%;
+        margin: 0;
+        position: relative;
+    }
+    .title-events {
+        font-size: 3.5625rem;
+        margin-bottom: 5.25rem;
+        text-transform: uppercase;
+    }
+    .title-events::after {
+        content: '';
+        display: block;
+        width: 12rem;
+        height: 0.125rem;
+        margin-top: 1.75rem;
+    }
+    .img-card{
+        width: 100%;
+    }
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 88%;
+        left: 84.5%;
+        background-color: #b23e38;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 900;
+        width: 3rem;
+        height: 3rem;
+        border-top-left-radius: 100%;
+    }
+}
