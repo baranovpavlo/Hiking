@@ -42,7 +42,7 @@
     font-size: 1rem;
     margin-bottom: 1rem;
 }
-.overlay{
+.plus{
     display: none;
 }
 .card{
@@ -54,6 +54,7 @@
 @media (min-width: 768px) {
     .card{
         width: 50%;
+        display: block;
         margin: auto;
         margin-bottom: 1.5rem;
     }
@@ -66,7 +67,6 @@
     .card{
         flex-basis: 31.5%;
         margin: 0;
-        position: relative;
     }
     .title-events {
         font-size: 3.5625rem;
@@ -83,14 +83,16 @@
     .img-card{
         width: 100%;
     }
-    .overlay{
+    .about-events{
+        position: relative;
+    }
+    .plus{
         display: flex;
         justify-content: center;
-        align-content: flex-start;
         align-items: center;
         position: absolute;
-        top: 88%;
-        left: 84.5%;
+        right: 0;
+        bottom: 0;
         background-color: #b23e38;
         color: #ffffff;
         font-size: 1.5rem;

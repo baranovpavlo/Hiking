@@ -49,6 +49,7 @@
         display: block;
         margin: auto;
         margin-bottom: 3rem;
+        border-radius: 50%;
     }
     .title-testimonial {
         font-weight: 300;
